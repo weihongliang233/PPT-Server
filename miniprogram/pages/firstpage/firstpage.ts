@@ -1,5 +1,5 @@
 // index.ts
-// è·å–åº”ç”¨å®ä¾‹
+// »ñÈ¡Ó¦ÓÃÊµÀı
 const app = getApp<IAppOption>()
 
 Page({
@@ -9,7 +9,7 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
   },
-  // äº‹ä»¶å¤„ç†å‡½æ•°
+  // ÊÂ¼ş´¦Àíº¯Êı
   bindViewTap() {
     wx.navigateTo({
       url: '../logs/logs',
@@ -22,8 +22,8 @@ Page({
         hasUserInfo: true,
       })
     } else if (this.data.canIUse) {
-      // ç”±äº getUserInfo æ˜¯ç½‘ç»œè¯·æ±‚ï¼Œå¯èƒ½ä¼šåœ¨ Page.onLoad ä¹‹åæ‰è¿”å›
-      // æ‰€ä»¥æ­¤å¤„åŠ å…¥ callback ä»¥é˜²æ­¢è¿™ç§æƒ…å†µ
+      // ÓÉÓÚ getUserInfo ÊÇÍøÂçÇëÇó£¬¿ÉÄÜ»áÔÚ Page.onLoad Ö®ºó²Å·µ»Ø
+      // ËùÒÔ´Ë´¦¼ÓÈë callback ÒÔ·ÀÖ¹ÕâÖÖÇé¿ö
       app.userInfoReadyCallback = res => {
         this.setData({
           userInfo: res.userInfo,
@@ -31,7 +31,7 @@ Page({
         })
       }
     } else {
-      // åœ¨æ²¡æœ‰ open-type=getUserInfo ç‰ˆæœ¬çš„å…¼å®¹å¤„ç†
+      // ÔÚÃ»ÓĞ open-type=getUserInfo °æ±¾µÄ¼æÈİ´¦Àí
       wx.getUserInfo({
         success: res => {
           app.globalData.userInfo = res.userInfo
