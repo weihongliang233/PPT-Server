@@ -1,4 +1,11 @@
 // app.ts
 App<IAppOption>({
-  globalData: {}
+  globalData: {
+    userID:"",
+    password:"",
+    School:"",
+    Group:"",
+    Name:"",
+    Identity:"",
+  }
 })

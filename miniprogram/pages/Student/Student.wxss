@@ -1,0 +1,42 @@
+
+.container{
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.form-name{
+  color: #333;
+  font-weight: bold;
+  font-size: 15pt;
+  height: 24pt;
+  border-bottom: 1rpx solid #eee;
+  text-align: flex-start;
+  padding: 10rpx;
+
+  box-sizing: content-box;
+
+}
+.form-name-placeholder{
+  color: #ccc;
+}
+.file-name{
+  border: 1rpx solid #26AB28;
+  border-radius: 10rpx;
+  text-align: flex-start;
+  color: #26AB28;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  margin: 20rpx;
+  padding: 10rpx;
+  border: 1rpx solid #26AB28;
+  border-radius: 20rpx;
+  text-align: center;
+  color: #26AB28;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

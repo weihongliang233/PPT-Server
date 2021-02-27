@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/firstpage/firstpage"
+    "pages/firstpage/firstpage",
+    "pages/Student/Student"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,9 @@
+
+<view class="container">
+	<input class="input" name="userName" placeholder="Enter Filename" bindinput="fileNameDecide" > 
+  </input>
+
+  <button bindtap="ChooseFile"> chose file</button>
+
+  <button bindtap="UploadFile"> upload file</button>
+</view>
